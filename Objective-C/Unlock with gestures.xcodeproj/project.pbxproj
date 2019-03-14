@@ -1,0 +1,356 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		322F076E223A820000FFA33C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 322F076D223A820000FFA33C /* AppDelegate.m */; };
+		322F0771223A820000FFA33C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 322F0770223A820000FFA33C /* ViewController.m */; };
+		322F0774223A820000FFA33C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 322F0772223A820000FFA33C /* Main.storyboard */; };
+		322F0776223A820100FFA33C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 322F0775223A820100FFA33C /* Assets.xcassets */; };
+		322F0779223A820100FFA33C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 322F0777223A820100FFA33C /* LaunchScreen.storyboard */; };
+		322F077C223A820100FFA33C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 322F077B223A820100FFA33C /* main.m */; };
+		322F078B223A95CE00FFA33C /* GesturesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 322F0789223A95CE00FFA33C /* GesturesView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		322F0769223A81FF00FFA33C /* Unlock with gestures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Unlock with gestures.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		322F076C223A81FF00FFA33C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		322F076D223A820000FFA33C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		322F076F223A820000FFA33C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		322F0770223A820000FFA33C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		322F0773223A820000FFA33C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		322F0775223A820100FFA33C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		322F0778223A820100FFA33C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		322F077A223A820100FFA33C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		322F077B223A820100FFA33C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		322F0789223A95CE00FFA33C /* GesturesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GesturesView.m; sourceTree = "<group>"; };
+		322F078A223A95CE00FFA33C /* GesturesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GesturesView.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		322F0766223A81FF00FFA33C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		322F0760223A81FF00FFA33C = {
+			isa = PBXGroup;
+			children = (
+				322F076B223A81FF00FFA33C /* Unlock with gestures */,
+				322F076A223A81FF00FFA33C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		322F076A223A81FF00FFA33C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				322F0769223A81FF00FFA33C /* Unlock with gestures.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		322F076B223A81FF00FFA33C /* Unlock with gestures */ = {
+			isa = PBXGroup;
+			children = (
+				322F076C223A81FF00FFA33C /* AppDelegate.h */,
+				322F076D223A820000FFA33C /* AppDelegate.m */,
+				322F076F223A820000FFA33C /* ViewController.h */,
+				322F0770223A820000FFA33C /* ViewController.m */,
+				322F0782223A849800FFA33C /* GesturesView */,
+				322F0772223A820000FFA33C /* Main.storyboard */,
+				322F0775223A820100FFA33C /* Assets.xcassets */,
+				322F0777223A820100FFA33C /* LaunchScreen.storyboard */,
+				322F077A223A820100FFA33C /* Info.plist */,
+				322F077B223A820100FFA33C /* main.m */,
+			);
+			path = "Unlock with gestures";
+			sourceTree = "<group>";
+		};
+		322F0782223A849800FFA33C /* GesturesView */ = {
+			isa = PBXGroup;
+			children = (
+				322F078A223A95CE00FFA33C /* GesturesView.h */,
+				322F0789223A95CE00FFA33C /* GesturesView.m */,
+			);
+			path = GesturesView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		322F0768223A81FF00FFA33C /* Unlock with gestures */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 322F077F223A820100FFA33C /* Build configuration list for PBXNativeTarget "Unlock with gestures" */;
+			buildPhases = (
+				322F0765223A81FF00FFA33C /* Sources */,
+				322F0766223A81FF00FFA33C /* Frameworks */,
+				322F0767223A81FF00FFA33C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Unlock with gestures";
+			productName = "Unlock with gestures";
+			productReference = 322F0769223A81FF00FFA33C /* Unlock with gestures.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		322F0761223A81FF00FFA33C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Jepp;
+				TargetAttributes = {
+					322F0768223A81FF00FFA33C = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 322F0764223A81FF00FFA33C /* Build configuration list for PBXProject "Unlock with gestures" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 322F0760223A81FF00FFA33C;
+			productRefGroup = 322F076A223A81FF00FFA33C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				322F0768223A81FF00FFA33C /* Unlock with gestures */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		322F0767223A81FF00FFA33C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				322F0779223A820100FFA33C /* LaunchScreen.storyboard in Resources */,
+				322F0776223A820100FFA33C /* Assets.xcassets in Resources */,
+				322F0774223A820000FFA33C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		322F0765223A81FF00FFA33C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				322F0771223A820000FFA33C /* ViewController.m in Sources */,
+				322F077C223A820100FFA33C /* main.m in Sources */,
+				322F078B223A95CE00FFA33C /* GesturesView.m in Sources */,
+				322F076E223A820000FFA33C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		322F0772223A820000FFA33C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				322F0773223A820000FFA33C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		322F0777223A820100FFA33C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				322F0778223A820100FFA33C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		322F077D223A820100FFA33C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		322F077E223A820100FFA33C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		322F0780223A820100FFA33C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SD48VPSJZK;
+				INFOPLIST_FILE = "Unlock with gestures/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Xmas.Unlock-with-gestures";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		322F0781223A820100FFA33C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SD48VPSJZK;
+				INFOPLIST_FILE = "Unlock with gestures/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Xmas.Unlock-with-gestures";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		322F0764223A81FF00FFA33C /* Build configuration list for PBXProject "Unlock with gestures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				322F077D223A820100FFA33C /* Debug */,
+				322F077E223A820100FFA33C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		322F077F223A820100FFA33C /* Build configuration list for PBXNativeTarget "Unlock with gestures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				322F0780223A820100FFA33C /* Debug */,
+				322F0781223A820100FFA33C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 322F0761223A81FF00FFA33C /* Project object */;
+}

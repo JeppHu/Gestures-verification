@@ -1,0 +1,31 @@
+# Add any directories, files, or patterns you don't want to be tracked by version control
+.DS_Store
+*.log
+*.sock*
+*.pyo
+*.pyc
+*.crash
+*.so
+*.o
+* copy.*
+._*
+build_config.mk
+*.patch
+*.diff
+
+*.xcodeproj/*.pbxuser
+*.xcodeproj/*.perspective*
+*.xcodeproj/*.mode1*
+*/*.xcodeproj/*.pbxuser
+*/*.xcodeproj/*.perspective*
+*/*.xcodeproj/*.mode1*
+*/*/*.xcodeproj/*.pbxuser
+*/*/*.xcodeproj/*.perspective*
+*/*/*.xcodeproj/*.mode1*
+
+*.xcodeproj/xcuserdata
+*.xcodeproj/project.xcworkspace
+*/*.xcodeproj/xcuserdata
+*/*.xcodeproj/project.xcworkspace
+*/*/*.xcodeproj/xcuserdata
+*/*/*.xcodeproj/project.xcworkspace
