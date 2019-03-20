@@ -3,8 +3,8 @@ Unlock with gestures
 
 九宫格手势解锁
 
-![初始状态](https://github.com/JeppHu/Gestures-verification/blob/master/Screenshot/Screen%20Shot1.png)
-
-![手势正确](https://github.com/JeppHu/Gestures-verification/blob/master/Screenshot/Screen%20Shot1.png)
-
-![手势错误](https://github.com/JeppHu/Gestures-verification/blob/master/Screenshot/Screen%20Shot1.png)
+<div align="center">
+<img src="https://github.com/JeppHu/Gestures-verification/blob/master/Screenshot/Screen%20Shot1.png"  height="600">
+<img src="https://github.com/JeppHu/Gestures-verification/blob/master/Screenshot/Screen%20Shot2.png"  height="600">
+<img src="https://github.com/JeppHu/Gestures-verification/blob/master/Screenshot/Screen%20Shot3.png"  height="600">
+</div>
