@@ -5,6 +5,6 @@ Unlock with gestures
 
 ![初始状态](https://github.com/JeppHu/Gestures-verification/blob/master/Screenshot/Screen%20Shot1.png)
 
-![手势正确](https://github.com/JeppHu/Gestures-verification/blob/master/Screenshot/Screen%20Shot1.png)
+![手势正确](https://github.com/JeppHu/Gestures-verification/blob/master/Screenshot/Screen%20Shot2.png)
 
-![手势错误](https://github.com/JeppHu/Gestures-verification/blob/master/Screenshot/Screen%20Shot1.png)
+![手势错误](https://github.com/JeppHu/Gestures-verification/blob/master/Screenshot/Screen%20Shot3.png)
