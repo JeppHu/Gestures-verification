@@ -7,11 +7,11 @@
 //
 
 #import "ViewController.h"
-#import "GesturesView.h"
+#import "JPGesturesView.h"
 
 @interface ViewController ()
 
-@property (weak, nonatomic) GesturesView *gesturesView;
+@property (weak, nonatomic) JPGesturesView *gesturesView;
 
 @end
 
@@ -21,15 +21,16 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    GesturesView *view = [[GesturesView alloc] init];
-    [view setLineColor:[UIColor redColor]];
+    JPGesturesView *view = [[JPGesturesView alloc] init];
+    [view setLineColor:[UIColor cyanColor]];
     [view setLineWidth:5];
     [self.view addSubview:view];
+    
     self.gesturesView = view;
     
-    NSString *yourPwd = @"012";
+    NSString *myPwd = @"012";
     [view setPasswordHandle:^BOOL(NSString * _Nonnull pwd) {
-        BOOL res = [pwd isEqualToString:yourPwd];
+        BOOL res = [pwd isEqualToString:myPwd];
         if (res) {
             
         }

@@ -13,7 +13,7 @@
 		322F0776223A820100FFA33C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 322F0775223A820100FFA33C /* Assets.xcassets */; };
 		322F0779223A820100FFA33C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 322F0777223A820100FFA33C /* LaunchScreen.storyboard */; };
 		322F077C223A820100FFA33C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 322F077B223A820100FFA33C /* main.m */; };
-		322F078B223A95CE00FFA33C /* GesturesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 322F0789223A95CE00FFA33C /* GesturesView.m */; };
+		322F078B223A95CE00FFA33C /* JPGesturesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 322F0789223A95CE00FFA33C /* JPGesturesView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +27,8 @@
 		322F0778223A820100FFA33C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		322F077A223A820100FFA33C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		322F077B223A820100FFA33C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		322F0789223A95CE00FFA33C /* GesturesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GesturesView.m; sourceTree = "<group>"; };
-		322F078A223A95CE00FFA33C /* GesturesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GesturesView.h; sourceTree = "<group>"; };
+		322F0789223A95CE00FFA33C /* JPGesturesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPGesturesView.m; sourceTree = "<group>"; };
+		322F078A223A95CE00FFA33C /* JPGesturesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPGesturesView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +65,7 @@
 				322F076D223A820000FFA33C /* AppDelegate.m */,
 				322F076F223A820000FFA33C /* ViewController.h */,
 				322F0770223A820000FFA33C /* ViewController.m */,
-				322F0782223A849800FFA33C /* GesturesView */,
+				322F0782223A849800FFA33C /* JPGesturesView */,
 				322F0772223A820000FFA33C /* Main.storyboard */,
 				322F0775223A820100FFA33C /* Assets.xcassets */,
 				322F0777223A820100FFA33C /* LaunchScreen.storyboard */,
@@ -75,13 +75,13 @@
 			path = "Unlock with gestures";
 			sourceTree = "<group>";
 		};
-		322F0782223A849800FFA33C /* GesturesView */ = {
+		322F0782223A849800FFA33C /* JPGesturesView */ = {
 			isa = PBXGroup;
 			children = (
-				322F078A223A95CE00FFA33C /* GesturesView.h */,
-				322F0789223A95CE00FFA33C /* GesturesView.m */,
+				322F078A223A95CE00FFA33C /* JPGesturesView.h */,
+				322F0789223A95CE00FFA33C /* JPGesturesView.m */,
 			);
-			path = GesturesView;
+			path = JPGesturesView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,7 +156,7 @@
 			files = (
 				322F0771223A820000FFA33C /* ViewController.m in Sources */,
 				322F077C223A820100FFA33C /* main.m in Sources */,
-				322F078B223A95CE00FFA33C /* GesturesView.m in Sources */,
+				322F078B223A95CE00FFA33C /* JPGesturesView.m in Sources */,
 				322F076E223A820000FFA33C /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

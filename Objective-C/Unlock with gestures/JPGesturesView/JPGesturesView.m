@@ -1,14 +1,14 @@
 //
-//  GesturesView.m
+//  JPGesturesView.m
 //  Unlock with gestures
 //
 //  Created by Jepp on 2019/3/14.
 //  Copyright © 2019年 Jepp. All rights reserved.
 //
 
-#import "GesturesView.h"
+#import "JPGesturesView.h"
 
-@interface GesturesView ()
+@interface JPGesturesView ()
 
 @property (strong, nonatomic) NSMutableArray *btns;
 @property (strong, nonatomic) NSMutableArray *lineBtns;
@@ -16,21 +16,7 @@
 
 @end
 
-@implementation GesturesView
-
-- (UIColor *)lineColor {
-    if (!_lineColor) {
-        _lineColor = [UIColor lightGrayColor];
-    }
-    return _lineColor;
-}
-
-- (CGFloat)lineWidth {
-    if (!_lineWidth) {
-        _lineWidth = 10;
-    }
-    return _lineWidth;
-}
+@implementation JPGesturesView
 
 - (NSMutableArray *)btns {
     if (!_btns) {
@@ -39,11 +25,10 @@
             UIButton *btn = [[UIButton alloc] init];
             btn.userInteractionEnabled = NO;
             btn.tag = i;
-            [btn setBackgroundImage:[UIImage imageNamed:@"gesture_normal"] forState:UIControlStateNormal];
-            [btn setBackgroundImage:[UIImage imageNamed:@"gesture_selected"] forState:UIControlStateSelected];
-            [btn setBackgroundImage:[UIImage imageNamed:@"gesture_error"] forState:UIControlStateDisabled];
+            [btn setBackgroundImage:self.normalImage forState:UIControlStateNormal];
+            [btn setBackgroundImage:self.selectedImamge forState:UIControlStateSelected];
+            [btn setBackgroundImage:self.disabledImage forState:UIControlStateDisabled];
             [self addSubview:btn];
-            // 这里调用 self.btns 不会造成死循环, 因为 _btns 这时候已经有值了
             [self.btns addObject:btn];
         }
     }
@@ -72,9 +57,14 @@
 }
 
 - (void)setupUI {
+    self.normalImage = [UIImage imageNamed:@"gesture_normal"];
+    self.selectedImamge = [UIImage imageNamed:@"gesture_selected"];
+    self.disabledImage = [UIImage imageNamed:@"gesture_error"];
     if (!self.backgroundColor) {
         self.backgroundColor = [UIColor whiteColor];
     }
+    self.lineColor = [UIColor lightGrayColor];
+    self.lineWidth = 10;
 }
 
 - (void)layoutSubviews {
