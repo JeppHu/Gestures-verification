@@ -1,14 +1,14 @@
 //
-//  JPGesturesView.m
+//  GesturesView.m
 //  Unlock with gestures
 //
 //  Created by Jepp on 2019/3/14.
 //  Copyright © 2019年 Jepp. All rights reserved.
 //
 
-#import "JPGesturesView.h"
+#import "GesturesView.h"
 
-@interface JPGesturesView ()
+@interface GesturesView ()
 
 @property (strong, nonatomic) NSMutableArray *btns;
 @property (strong, nonatomic) NSMutableArray *lineBtns;
@@ -16,7 +16,7 @@
 
 @end
 
-@implementation JPGesturesView
+@implementation GesturesView
 
 - (NSMutableArray *)btns {
     if (!_btns) {

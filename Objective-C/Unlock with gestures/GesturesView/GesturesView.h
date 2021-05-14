@@ -1,5 +1,5 @@
 //
-//  JPGesturesView.h
+//  GesturesView.h
 //  Unlock with gestures
 //
 //  Created by Jepp on 2019/3/14.
@@ -14,7 +14,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface JPGesturesView : UIView
+@interface GesturesView : UIView
 
 @property (copy, nonatomic) BOOL (^passwordHandle)(NSString *);
 @property (strong, nonatomic) UIImage *normalImage;
